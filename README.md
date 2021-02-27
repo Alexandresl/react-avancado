@@ -12,7 +12,7 @@
 
 [Código feito na aula](https://github.com/React-Avancado/landing-page/commit/cd936d765ade2dc62e3e0760d2f83e585c25a2e1)
 
-* Comando para instalação do graphQL-Request: ```npm add graphql-request@3.4.0 graphql@15.5.0```
+* Comando para instalação do graphQL-Request: ```yarn add graphql-request@3.4.0 graphql@15.5.0```
 
 ### 69. Criando a primeira query no Frontend
 
