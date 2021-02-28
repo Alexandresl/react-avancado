@@ -18,8 +18,5 @@ jobs:
       - name: Check Lint
         run: yarn lint
 
-      - name: Check Buld
-        run: yarn build
-
       - name: Run Tests
         run: yarn test
