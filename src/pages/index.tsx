@@ -15,17 +15,12 @@ import Footer from 'components/Footer';
 import JsonSchema from 'components/JsonSchema';
 import client from 'graphql/client';
 import GET_LANDING_PAGE from 'graphql/queries/getLandingPage';
-import { HeaderProps, ImageProps } from 'types/api';
+import { LandingPageProps } from 'types/api';
 
-type Props = {
-  logo: ImageProps;
-  header: HeaderProps;
-};
-
-const Index = ({ logo, header }: Props) => (
+const Index = ({ logo, header, sectionAboutProject }: LandingPageProps) => (
   <>
     <SectionHero logo={logo} header={header} />
-    <SectionAboutProject />
+    <SectionAboutProject {...sectionAboutProject} />
     <SectionTech />
     <SectionConcepts />
     <SectionModules />
