@@ -25,6 +25,22 @@ export type Module = {
   description: string;
 };
 
+export type SocialLInk = {
+  title: string;
+  url: string;
+};
+
+export type Author = {
+  photo: {
+    url: string;
+    alternativeText: string;
+  };
+  name: string;
+  role: string;
+  socialLinks: SocialLInk[];
+  description: string;
+};
+
 export type HeaderProps = {
   title: string;
   description: string;
@@ -66,6 +82,11 @@ export type SectionpricingBoxProps = {
   button: Button;
 };
 
+export type SectionAboutUsProps = {
+  title: string;
+  authors: Author[];
+};
+
 export type LandingPageProps = {
   logo: Image;
   header: HeaderProps;
@@ -75,4 +96,5 @@ export type LandingPageProps = {
   sectionModules: SectionModulesProps;
   sectionAgenda: SectionAgendaProps;
   pricingBox: SectionpricingBoxProps;
+  sectionAboutUs: SectionAboutUsProps;
 };
