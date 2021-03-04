@@ -49,6 +49,7 @@ export type Review = {
 export type Question = {
   question: string;
   answer: string;
+  isExtraQuestion: boolean;
 };
 
 export type HeaderProps = {

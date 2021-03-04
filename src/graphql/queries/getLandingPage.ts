@@ -126,6 +126,7 @@ const GET_LANDING_PAGE = gql`
       questions {
         question
         answer
+        isExtraQuestion
       }
     }
   }
