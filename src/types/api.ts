@@ -31,10 +31,7 @@ export type SocialLInk = {
 };
 
 export type Author = {
-  photo: {
-    url: string;
-    alternativeText: string;
-  };
+  photo: Image;
   name: string;
   role: string;
   socialLinks: SocialLInk[];
