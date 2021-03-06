@@ -77,11 +77,5 @@
 
 [Código da aula](https://github.com/React-Avancado/landing-page/commit/7675312ef473710d172a05147ecfff173297e7fb)
 
-## Seção 7: Módulo 2 (extra): Colocando a Landint Page em produção
 
-### 83. Sobre os serviços utilizados
-
-[Site oficial do heroku](https://www.heroku.com/)
-
-[Site oficial do Netlify](https://www.netlify.com/)
 
